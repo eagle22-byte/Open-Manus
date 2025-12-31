@@ -6,8 +6,8 @@ A full-stack AI agent platform built using **OpenManus**, enabling users to crea
 
 ## 🚀 Overview
 
-**NAVA AI** combines a **Python FastAPI backend** with a **React + TypeScript frontend** to provide an interactive sandbox for AI agents.  
-Users can run agents, view live logs, manage generated files, and interact dynamically during agent execution.
+**NAVA AI** is an interactive AI agent system that combines a **Python FastAPI backend** with a **React + TypeScript frontend**.  
+The platform provides a sandboxed environment where users can run AI agents, monitor live logs, manage generated files, and interact dynamically during agent execution.
 
 This project was developed as part of the **AI Mini Agents Virtual Internship** under the  
 **School of Artificial Intelligence, North-Chiang Mai University (NCMU), Thailand**.
@@ -17,29 +17,29 @@ This project was developed as part of the **AI Mini Agents Virtual Internship** 
 ## ✨ Features
 
 ### 🧠 AI Agent Capabilities
-- Real-time agent execution with live log streaming  
-- Tool-based modular agent architecture  
-- Dynamic user input during agent execution  
+- Real-time agent execution with live log streaming
+- Tool-based, modular agent architecture
+- Dynamic user input during agent execution
 - Support for multiple LLM providers (OpenAI, Azure, AWS Bedrock, custom models)
 
 ### 🎨 Frontend
 - React 18 + TypeScript (Vite)
-- Tailwind CSS for styling
-- Clerk authentication
+- Tailwind CSS for modern UI styling
+- Clerk-based authentication
 - File viewer with syntax highlighting
-- Live HTML preview & image rendering
-- Responsive UI with dark/light mode
+- Live HTML preview and image rendering
+- Responsive UI with dark/light theme support
 
 ### ⚙️ Backend
-- FastAPI (async, high-performance)
+- FastAPI for high-performance async APIs
 - WebSocket-based real-time communication
 - Modular agent and tool framework
 - Browser automation using Playwright
-- Structured logging and error handling
+- Structured logging and robust error handling
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Project Architecture
 
 OpenManus/
 ├── frontend/
@@ -58,78 +58,89 @@ OpenManus/
 │
 └── README.md
 
+yaml
+Copy code
+
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend:**  
-React, TypeScript, Vite, Tailwind CSS, Clerk, WebSockets
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Clerk Authentication
+- WebSockets
 
-**Backend:**  
-Python 3.12, FastAPI, Pydantic, Playwright, OpenAI API
+### Backend
+- Python 3.12
+- FastAPI
+- Pydantic
+- Playwright
+- OpenAI API
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
 ### Prerequisites
 - Python 3.11+
 - Node.js 18+
 - Git
 
-### Backend Setup
+## ⚙️ Running the Application
+
+**Backend will run at:**  
+👉 http://localhost:8000
+
+### Frontend Setup
+
 ```bash
-git clone https://github.com/your-username/nava-ai.git
-cd backend
-pip install -r requirements.txt
-uvicorn api:app --host 0.0.0.0 --port 8000
-Backend runs at: http://localhost:8000
-Frontend Setup
 cd frontend
 npm install
 npm run dev
+**Frontend will run at:**  
+👉 http://localhost:5173
 
+---
 
-Frontend runs at: http://localhost:5173
+## 🎮 Usage
 
-🎮 Usage
+- Sign in using **Clerk authentication**
+- Navigate to the **Sandbox**
+- Enter an AI task prompt
+- Observe real-time agent execution and logs
+- View generated files and previews instantly
 
-Sign in using Clerk authentication
+---
 
-Navigate to the Sandbox
+## 👩‍💻 My Contribution
 
-Enter an AI task prompt
+- Contributed as a **Full-Stack Developer** during the internship
+- Worked on **frontend–backend integration**
+- Implemented **UI components and API interactions**
+- Assisted with **WebSocket communication** and agent execution flow
+- Collaborated on **debugging, testing, and feature enhancements**
 
-Observe real-time execution and logs
+---
 
-View generated files and previews instantly
+## 🎓 Internship Details
 
-👩‍💻 My Contribution
+**AI Mini Agents Virtual Internship**  
+School of Artificial Intelligence  
+**North-Chiang Mai University (NCMU), Thailand**
 
-Contributed as a Full-Stack Developer during the internship
+---
 
-Worked on frontend–backend integration
+## 📄 License
 
-Implemented UI components and API interactions
+This project is licensed under the **MIT License**.
 
-Assisted with WebSocket communication and agent execution flow
+---
 
-Collaborated on debugging, testing, and feature improvements
+## ⭐ Acknowledgments
 
-🎓 Internship Details
-
-AI Mini Agents Virtual Internship
-School of Artificial Intelligence
-North-Chiang Mai University (NCMU), Thailand
-
-📄 License
-
-This project is licensed under the MIT License.
-
-⭐ Acknowledgments
-
-OpenManus Framework
-
-FastAPI & React communities
-
-NCMU School of Artificial Intelligence
+- OpenManus Framework
+- FastAPI & React Communities
+- NCMU School of Artificial Intelligence
