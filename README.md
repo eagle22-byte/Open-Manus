@@ -40,24 +40,25 @@ This project was developed as part of the **AI Mini Agents Virtual Internship** 
 ---
 
 ## 🏗️ Project Architecture
-
+```bash
 OpenManus/
-├── frontend/
-│ ├── components/
-│ ├── public/
-│ └── server/ # WebSocket proxy
+├── frontend/          # React + TypeScript frontend
+│   ├── components/    # React components
+│   ├── public/        # Static assets
+│   └── server/        # Node.js WebSocket proxy
 │
-├── backend/
-│ ├── app/
-│ │ ├── agent/
-│ │ ├── tool/
-│ │ └── prompt/
-│ ├── config/
-│ ├── workspace/
-│ └── api.py
+├── backend/           # Python FastAPI backend
+│   ├── app/          # Core application
+│   │   ├── agent/    # Agent implementations
+│   │   ├── tool/     # Tool implementations
+│   │   ├── prompt/   # System prompts
+│   │   └── ...
+│   ├── config/       # Configuration files
+│   ├── workspace/    # Agent workspace
+│   └── api.py        # Main API server
 │
-└── README.md
-
+└── README.md         # This file
+```
 ---
 
 ## 🛠️ Tech Stack
