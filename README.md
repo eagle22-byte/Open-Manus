@@ -43,7 +43,7 @@ This project was developed as part of the **AI Mini Agents Virtual Internship** 
 
 OpenManus/
 ├── frontend/
-│ ├── components/
+| ├── components/
 │ ├── public/
 │ └── server/ # WebSocket proxy
 │
@@ -57,9 +57,6 @@ OpenManus/
 │ └── api.py
 │
 └── README.md
-
-yaml
-Copy code
 
 ---
 
