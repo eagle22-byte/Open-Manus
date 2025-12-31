@@ -102,7 +102,7 @@ npm run dev
 👉 http://localhost:5173
 
 ---
-
+```
 ## 🎮 Usage
 
 - Sign in using **Clerk authentication**
